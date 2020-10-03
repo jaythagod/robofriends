@@ -1,18 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import ComingSoon from "react-coming-soon";
+//import App from './App';
+//import ComingSoon from "react-coming-soon";
+import Hello from './Hello'
+import 'tachyons';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ComingSoon
-      image="https://react-coming-soon.maksv.me/default-image.jpeg"
-      bgColor="#fff"
-      textColor="#000"
-      illustration="development"
-    />
+    <Hello greeting={'Hej hej prospective user, How are you doing?'} />
   </React.StrictMode>,
   document.getElementById('root')
 );
