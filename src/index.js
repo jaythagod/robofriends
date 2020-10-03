@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ComingSoon from "react-coming-soon";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ComingSoon
+      image="https://react-coming-soon.maksv.me/default-image.jpeg"
+      bgColor="#fff"
+      textColor="#000"
+      illustration="development"
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
