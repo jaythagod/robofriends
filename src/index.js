@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import ComingSoon from "react-coming-soon";
 import Card from './Card';
+import CardList from './CardList';
 import { robots } from './robots';
 import 'tachyons';
 import * as serviceWorker from './serviceWorker';
